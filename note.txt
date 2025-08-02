@@ -1,0 +1,43 @@
+1. Needs to add login, forgot & otp system with Phone Number
+2. Needs to add a chat system
+3. Needs to add update profile for patient, doctor, admin
+4. Doctor able to change his/her availability
+
+// Booking related
+5. After booking the appointment, the patient will get a mail with the link of 'My Appointment'
+6. The patient can cancel the appointment before 24 hours
+7. During seeing the appointment, Patient have to enter password
+8. Cancellation History Tracking for patient, doctor & admin:
+9. Notification to Doctor after booking & cancellation of appointment
+10. Reschedule appointment
+11. Refund System Integration (if applicable)
+12. Cancellation Time Validation like 24 hours before
+
+13. Payment Integration
+14. Payment History Tracking
+
+15. Booking Receipt
+16. Once appointment status is completed, a feedback form will be given to the patient through mail
+17. Feedback form will be given to the doctor
+18. Admin able to add new column in the doctor table for existing doctor as well as new doctor
+
+
+1. needs to learn how to import & export in react & next
+
+
+
+
+
+
+---- 
+Error handling
+1. needs to make a global error in backend
+
+2. React toastify
+3. if backend server is down or backend server is not responding, then react toastify will show the error
+
+
+
+4. if there is no internet then there should be a separate meaningful messeage 
+e.g. MongoNetworkError: getaddrinfo ENOTFOUND ac-eiuojyy-shard-00-00.nxamkli.mongodb.net
+for this error 
