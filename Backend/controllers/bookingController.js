@@ -129,7 +129,7 @@ export const confirmBooking = async (req, res) => {
     //   bookingDate: bookingData.bookingDate,
     // });
 
-    console.log("Daily bookings:", dailyBookings);
+    // console.log("Daily bookings:", dailyBookings);
 
     // const dailyBookings = await Booking.countDocuments({
     //   bookingDate: new Date(bookingData.bookingDate)

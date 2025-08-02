@@ -157,8 +157,8 @@ const BookingForm = ({ selectedTime, setSelectedTime, globalTimeSlots, doctorInf
                 bookingTimeSlot: formData.time,
                 accessToken: session?.user.accessToken || null, // Include access token if available
             };
-            console.log("Booking Time Slot::", bookingData.bookingTimeSlot);
-            console.log("Date selected::", formData.date);
+            // console.log("Booking Time Slot::", bookingData.bookingTimeSlot);
+            // console.log("Date selected::", formData.date);
 
             // console.log('Sending booking data:', bookingData);
 

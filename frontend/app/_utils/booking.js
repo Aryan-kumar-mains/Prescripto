@@ -19,7 +19,7 @@ export const InitiateBooking = async (bookingData) => {
   });
 
   const data = await response.json();
-  console.log("Booking Data during initiation of booking:", data);
+  // console.log("Booking Data during initiation of booking:", data);
   return data;
 };
 
@@ -85,7 +85,7 @@ export const cancelBooking = async ({ bookingId, reason, accessToken }) => {
   const headers = {
     "Content-Type": "application/json",
   };
-  console.log("Access Token:", accessToken);
+  // console.log("Access Token:", accessToken);
   
   if (accessToken) {
     headers["authorization"] = `Bearer ${accessToken}`;

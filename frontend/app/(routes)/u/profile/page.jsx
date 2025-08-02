@@ -47,10 +47,10 @@ const ProfilePage = () => {
                startLoading('Loading profile...');
                setTimeout( async () => {
                     try {
-                         console.log("Session::", session);
+                         // console.log("Session::", session);
                          
                          const token = session?.user?.accessToken;
-                         console.log("Token::", token);
+                         // console.log("Token::", token);
      
                          if (!token) {
                               setError('No access token found. Please login again.');
@@ -60,7 +60,7 @@ const ProfilePage = () => {
      
                          // Fetch user details
                          const response = await fetchUserDetails(token);
-                         console.log("response:: ", response);
+                         // console.log("response:: ", response);
                          if (response?._id) {
                               setUser(response);
                               setProfileData({
