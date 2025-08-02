@@ -6,20 +6,19 @@
 // Booking related
 5. After booking the appointment, the patient will get a mail with the link of 'My Appointment'
 6. The patient can cancel the appointment before 24 hours
-7. During seeing the appointment, Patient have to enter password
+7. During seeing the appointment, Patient have to enter password 
 8. Cancellation History Tracking for patient, doctor & admin:
-9. Notification to Doctor after booking & cancellation of appointment
-10. Reschedule appointment
+9. Notification to Doctor after booking & cancellation of appointment 
+10. Reschedule appointment 
 11. Refund System Integration (if applicable)
-12. Cancellation Time Validation like 24 hours before
 
-13. Payment Integration
-14. Payment History Tracking
+12. Payment Integration
+13. Payment History Tracking
 
-15. Booking Receipt
-16. Once appointment status is completed, a feedback form will be given to the patient through mail
-17. Feedback form will be given to the doctor
-18. Admin able to add new column in the doctor table for existing doctor as well as new doctor
+14. Booking Receipt
+15. Once appointment status is completed, a feedback form will be given to the patient through mail
+16. Feedback form will be given to the doctor
+17. Admin able to add new column in the doctor table for existing doctor as well as new doctor
 
 
 1. needs to learn how to import & export in react & next
