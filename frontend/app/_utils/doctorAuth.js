@@ -7,7 +7,7 @@ export const fetchDoctorDetails = async (accessToken) => {
   };
 
   try {
-    const response = await fetch("http://localhost:4000/api/doctor/profile", {
+    const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/doctor/profile`, {
       method: "GET",
       headers,
     });

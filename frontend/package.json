@@ -26,6 +26,7 @@
     "clsx": "^2.1.1",
     "cmdk": "^1.0.0",
     "date-fns": "^3.6.0",
+    "doctor-appointment-booking": "file:..",
     "lucide-react": "^0.468.0",
     "motion": "^12.23.6",
     "next": "15.3.2",

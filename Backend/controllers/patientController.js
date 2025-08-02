@@ -133,7 +133,7 @@ export const forgotPassword = async (req, res) => {
     //   "host"
     // )}/api/patient/password/reset/${resetToken}`;
 
-    const resetUrl = `http://localhost:3000/u/password/reset/${resetToken}`; // Update this URL to match your frontend route
+    const resetUrl = `${process.env.FRONTEND_URL}/u/password/reset/${resetToken}`; // Update this URL to match your frontend route
 
     // create reset password mail
     const Message = `Your password reset token is as follow:\n\n${resetUrl}\n\nIf you have not requested this email then, please ignore it.`;
