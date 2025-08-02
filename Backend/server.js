@@ -65,7 +65,7 @@ app.use("/api/booking", bookingRouter);
 app.use(csrf({ cookie: true }));
 
 app.get("/", (req, res) => {
-  res.send("Hello World" + process.env.DB_URI);
+  res.send("Hello World 2" + process.env.DB_URI);
 });
 
 // For Deployment
