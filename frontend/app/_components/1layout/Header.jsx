@@ -311,7 +311,7 @@ export const Header = () => {
                           {/* Bookings Link */}
                           <NavigationMenuLink asChild>
                             <Link
-                              href="/u/bookings"
+                              href="/u/booking"
                               className="flex items-center gap-3 p-3 rounded-md hover:bg-gray-50 transition-all duration-200 group"
                             >
                               <Calendar size={18} className="text-gray-600 group-hover:text-primary transition-colors" />
@@ -397,7 +397,7 @@ export const Header = () => {
         <div className="flex flex-col h-full overflow-hidden">
           <div className="flex-1 overflow-y-auto pb-20"> {/* Increased bottom padding */}
 
-            {/* User profile summary like Email & profile picture in mobile drawer */}
+            {/* User profile summary like Email & profile picture in MOBILE drawer */}
             {isAuthenticated && (
               <div className="px-6 mb-6 pb-6 border-b border-gray-100">
                 <div className="flex items-center gap-4 mb-4">
@@ -502,6 +502,20 @@ export const Header = () => {
                       >
                         <User size={20} />
                         My Profile
+                      </Link>
+                      <div className="h-px bg-gray-100 mt-2"></div>
+                    </li>
+                    <li>
+                      <Link
+                        href="/u/booking"
+                        className={`flex items-center gap-3 text-lg font-medium py-2 ${pathname === '/u/booking' ? 'text-primary' : 'text-gray-800'}`}
+                        onClick={() => {
+                          setSelectedCategory(null); // Reset selected category
+                          toggleMobileMenu();
+                        }}
+                      >
+                        <User size={20} />
+                        My Booking
                       </Link>
                       <div className="h-px bg-gray-100 mt-2"></div>
                     </li>
