@@ -34,7 +34,6 @@ Doctors can manage their schedules, and admins can oversee the platform.
 - [MongoDB Atlas](https://www.mongodb.com/atlas)
 
 **Other Tools**
-- [Redis](https://redis.io/) – For OTP & booking caching  
 - [Cloudinary](https://cloudinary.com/) – For image hosting  
 - [Render](https://render.com/) – Deployment platform
 
@@ -44,5 +43,4 @@ Doctors can manage their schedules, and admins can oversee the platform.
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/doctor-booking-system.git
-cd doctor-booking-system
+git clone https://github.com/Aryan-kumar-mains/Prescripto.git
