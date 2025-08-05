@@ -50,7 +50,7 @@ app.use(bodyParser.raw());
 // With this:
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL, // Your frontend origin
+    origin: process.env.FRONTEND_URL , // Your frontend origin
     credentials: true, // Allow credentials
   })
 );
